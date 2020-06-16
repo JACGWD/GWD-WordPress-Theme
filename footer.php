@@ -8,6 +8,6 @@
 
 <p>All images and web site content &copy;  2017-<?php echo date("Y"); ?>. All rights reserved for published and unpublished works.</p>
 </footer>
-
+<?php wp_footer(); ?>
 </body>
 </html>
