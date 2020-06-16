@@ -5,11 +5,6 @@
 ?>
 
 <?php get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-
-		</main><!-- .site-main -->
-	</div><!-- .content-area -->
-
+<p>single.php post template (precedes singular)</p>
+<?php // https://developer.wordpress.org/themes/basics/template-hierarchy/ ?>
 <?php get_footer(); ?>

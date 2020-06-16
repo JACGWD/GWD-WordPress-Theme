@@ -9,7 +9,6 @@
 <head>
 <meta charset="utf-8">
 
-<title></title>
 <link rel="manifest" href="/site.webmanifest">
 <link rel="apple-touch-icon" href="/icon.png">
 <!-- Place favicon.ico in the root directory -->

@@ -5,11 +5,5 @@
 ?>
 
 <?php get_header(); ?>
-
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
-
-		</main><!-- .site-main -->
-	</div><!-- .content-area -->
-
+<p>page.php page template</p>
 <?php get_footer(); ?>
