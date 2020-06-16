@@ -1,21 +1,15 @@
 <?php
 # ######################################################################
 #  GWD WP Web App version 0.1
-#  Single Post template page
-#  See: https://developer.wordpress.org/themes/basics/template-hierarchy/
 # #######################################################################
 ?>
 
 <?php get_header(); ?>
-<?php
-while(have_posts()){
-  the_post(); ?>
 
-  <h2><?php the_title(); ?></h2>
-}
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main">
+				<h1>Contact</h1>
+		</main><!-- .site-main -->
+	</div><!-- .content-area -->
 
-
-
-
-  ?>
 <?php get_footer(); ?>
