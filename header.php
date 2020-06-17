@@ -18,7 +18,7 @@
 
 <meta name="robots" content="noodp, noydir" />
 
-<meta property="author" content="">
+<meta property="author" content="<?php the_author(); ?>">
 
 <?php wp_head(); ?>
 
