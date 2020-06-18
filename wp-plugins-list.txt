@@ -1,0 +1,44 @@
+All In One SEO Pack
+Version 3.5.2 
+
+All-in-One WP Migration
+Version 7.23
+	
+Breadcrumb NavXT
+Version 6.5.0 
+
+Contact Form 7
+Version 5.1.9
+
+Custom Body Class
+Version 0.7.2
+
+Elementor
+Version 2.9.12 
+	
+Flamingo
+Version 2.1.1 	
+	
+Health Check & Troubleshooting
+Version 1.4.4
+	
+Media Library Assistant
+Version 2.83
+	
+Polylang
+Version 2.7.3 
+
+Show Current Template
+Version 0.3.3 
+	
+Smush
+Version 3.6.3
+	
+UpdraftPlus - Backup/Restore
+Version 1.16.25
+	
+Wordfence Security
+Version 7.4.8
+	
+Yoast SEO
+Version 14.3
