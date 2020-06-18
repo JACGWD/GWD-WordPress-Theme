@@ -117,7 +117,22 @@ array(
 }
 // ADDS THE CUSTOM POST TYPE TO WP
 add_action('init', 'gwd_custom_post_type');
+?>
 
 
 
+
+<?php
+// ADDS THE MENUS TO WP
+
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'header-menu' => __( 'Header Menu' ),
+      'footer-menu' => __( 'Footer Menu' ),
+      'social-menu' => __( 'Social Menu' ),
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
 ?>

@@ -1,7 +1,8 @@
 <?php
-# ######################################################################
-#  GWD WP Web App version 0.1
-# #######################################################################
+/* ######################################################################
+*  GWD WP Web App version 0.1
+* #######################################################################
+*/
 ?>
 <!doctype html>
 <html class="no-js">
@@ -14,17 +15,13 @@
 <!-- Place favicon.ico in the root directory -->
 
 
-<?php // load theme stylesheet ?>
-
 <meta name="robots" content="noodp, noydir" />
 
-<meta property="author" content="<?php the_author(); ?>">
+<meta property="author" content="<?php the_author_meta( 'display_name', 1 ); ?>">
 
 <?php wp_head(); ?>
+<?php // LOADS THE DEFAULT WP HEAD SECTION ?>
 
-<!-- Google -->
-<!-- Twitter -->
-<!-- Facebook / OpenGraph -->
 </head>
 
 <body>
@@ -35,6 +32,8 @@
 
 
 <header>
-<p class="headerTitle"></p>
-<p class="headerSubtitle"></p>
+<p class="headerTitle"><?php the_author_meta( 'display_name', 1 ); ?></p>
+<p class="headerSubtitle">Montreal-based graphic &amp; UI/UX Designer</p>
 </header>
+
+<?php wp_nav_menu( array( 'theme_location' => 'header-menu', 'container_class' => 'primary-nav' ) ); ?>
