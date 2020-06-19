@@ -24,6 +24,9 @@
 
 				?>
 		</main><!-- .site-main -->
+<aside>
+</aside>	
+
 	</div><!-- .content-area -->
 
 <?php get_footer(); ?>
